@@ -1,0 +1,10 @@
+CVE-2016-2226
+
+To reproduce the bug, run:
+
+./objdump -x -C poc-test_case_1  (or poc-test_case_2)
+
+./nm-new -C poc-test_case_1 (or poc-test_case_2)
+
+For more info, please see: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=69687
+
